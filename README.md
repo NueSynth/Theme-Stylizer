@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 # Selene Theme Stylizer (`selene_theme_stylizer.py`)
 
 **Selene Theme Stylizer** is a modern, user-friendly graphical tool for designing, previewing, and exporting custom color and font schemes for GUIs and applications. Built with PyQt6, this rebooted version offers a streamlined interface and advanced features for effortless theme creation and code export.
+=======
+# GUI Theme Stylizer 
+
+** GUI Theme Style Assistant** is a powerful, user-friendly graphical tool for designing, previewing, and exporting custom color and font schemes for GUIs and applications. Built with PyQt6, this tool allows designers, developers, and accessibility experts to interactively adjust a wide range of visual parameters, see real-time previews, and export ready-to-use configuration code. 
+>>>>>>> 3c555616b7d771d863f4553635deb8f13a82a232
 
 Originally developed as part of the Selene Framework, Theme Stylizer is now a fully stand-alone utility for designers, developers, and accessibility experts.
 
