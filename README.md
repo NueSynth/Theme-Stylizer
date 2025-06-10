@@ -1,27 +1,27 @@
-# Selene Color Scheme Designer (`color_picker.py`)
+# Selene Theme Stylizer (`selene_theme_stylizer.py`)
 
-**Selene Color Scheme Designer** is a powerful, user-friendly graphical tool for designing, previewing, and exporting custom color and font schemes for GUIs and applications. Built with PyQt6, this tool allows designers, developers, and accessibility experts to interactively adjust a wide range of visual parameters, see real-time previews, and export ready-to-use configuration code. 
+**Selene Theme Stylizer** is a modern, user-friendly graphical tool for designing, previewing, and exporting custom color and font schemes for GUIs and applications. Built with PyQt6, this rebooted version offers a streamlined interface and advanced features for effortless theme creation and code export.
 
-This tool was originally developed as part of the Selene Framework, but is fully stand-alone and does not require the rest of the framework to use.
+Originally developed as part of the Selene Framework, Theme Stylizer is now a fully stand-alone utility for designers, developers, and accessibility experts.
 
 ---
 
 ## Features
 
 - **Visual Color Selection:**  
-  Easily pick and preview background, foreground, text, and special effect colors via intuitive color dialogs.
+  Pick and preview background, foreground, text, glow, and dropdown colors with intuitive dialogs.
 - **Dropdown & Menu Styling:**  
-  Fine-tune selection, highlight, menu, and text colors for dropdowns to ensure clarity and accessibility.
+  Style dropdowns with separate controls for selected, menu, highlight, and text colors.
 - **Font Customization:**  
-  Choose from system and custom fonts, adjust size, and apply text styles (bold, italic, underline, strike-through).
+  Choose from system and custom fonts, set size, and toggle bold, italic, underline, and strike-through.
 - **Glow & Effects:**  
-  Add and preview glow effects to text, with control over color and radius; adjust global opacity to see how your design adapts.
+  Add glow effects to text with adjustable color and radius; control global opacity for all elements.
 - **Live Preview:**  
-  Instantly see how your choices affect a sample interface and dropdown menu.
+  Instantly see your theme applied to a sample interface and dropdown.
 - **Code Export:**  
-  Automatically generate Python code and CSS/Qt stylesheet snippets reflecting your current selections, ready to copy into your own projects.
-- **Inclusive Design:**  
-  Test and iterate on color and font choices to meet contrast, clarity, and accessibility needs for all users.
+  Generate ready-to-use Python and CSS/Qt stylesheet snippets reflecting your current selections.
+- **Accessibility Tools:**  
+  Adjust alpha/transparency, preview contrast, and experiment with fonts for clarity and inclusivity.
 
 ---
 
@@ -38,12 +38,12 @@ This tool was originally developed as part of the Selene Framework, but is fully
 
 ### 2. Download
 
-Download `color_picker.py` and (optionally) the `gui/fonts/` directory if you wish to use custom fonts.
+Download `selene_theme_stylizer.py` and (optionally) the `gui/fonts/` directory for custom fonts.
 
 ### 3. Run the Tool
 
 ```bash
-python color_picker.py
+python selene_theme_stylizer.py
 ```
 
 ### 4. Interface Overview
@@ -84,7 +84,7 @@ At the bottom of the tool you’ll find a pane displaying:
 
 ## Accessibility
 
-The Selene Color Scheme Designer is designed to help ensure your interfaces are visually accessible and inclusive:
+Selene Theme Stylizer is designed to help ensure your interfaces are visually accessible and inclusive:
 
 - **Transparency Controls:**  
   Adjust alpha channels to test clarity against varied backgrounds.
