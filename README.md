@@ -1,6 +1,6 @@
-# Selene Theme Stylizer (`color_picker.py`)
+# GUI Theme Stylizer 
 
-**Selene Color Scheme Designer** is a powerful, user-friendly graphical tool for designing, previewing, and exporting custom color and font schemes for GUIs and applications. Built with PyQt6, this tool allows designers, developers, and accessibility experts to interactively adjust a wide range of visual parameters, see real-time previews, and export ready-to-use configuration code. 
+** GUI Theme Style Assistant** is a powerful, user-friendly graphical tool for designing, previewing, and exporting custom color and font schemes for GUIs and applications. Built with PyQt6, this tool allows designers, developers, and accessibility experts to interactively adjust a wide range of visual parameters, see real-time previews, and export ready-to-use configuration code. 
 
 This tool was originally developed as part of the Selene Framework, but is fully stand-alone and does not require the rest of the framework to use.
 
